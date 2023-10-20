@@ -1,0 +1,16 @@
+Voltage (V): 4.238
+Frequency (Hz): 333333.34
+Pulse Width (microseconds): 3
+DATA:3,333333.34,4.24
+Voltage (V): 1.026
+Frequency (Hz): 142857.14
+Pulse Width (microseconds): 7
+DATA:7,142857.14,1.03
+Voltage (V): 0.919
+Frequency (Hz): 142857.14
+Pulse Width (microseconds): 7
+DATA:7,142857.14,0.92
+Voltage (V): 0.938
+Frequency (Hz): 142857.14
+Pulse Width (microseconds): 7
+DATA:7,142857.14,0.94
