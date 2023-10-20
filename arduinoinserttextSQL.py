@@ -17,7 +17,7 @@ for line in lines:
 
     # When you encounter 'DATA:', insert the values into the database
     if 'DATA:' in line and frequency is not None and voltage is not None and pulse_width is not None:
-        conn = sqlite3.connect('C:/Users/jbrow/OneDrive/Desktop/current study/arduinovoltfreqpulsedb.db')
+        conn = sqlite3.connect('')
         cursor = conn.cursor()
         cursor.execute("INSERT INTO bio_table (frequency, voltage, pulse_width) VALUES (?, ?, ?)",
                        (frequency, voltage, pulse_width))
