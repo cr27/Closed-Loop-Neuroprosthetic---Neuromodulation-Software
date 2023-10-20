@@ -51,7 +51,7 @@ hopfield_net.train(patterns)
 import sqlite3
 
 # Connect to the database
-conn = sqlite3.connect('C:/Users/jbrow/OneDrive/Desktop/current study/arduinovoltfreqpulsedb.db')
+conn = sqlite3.connect('')
 cursor = conn.cursor()
 
 # Retrieve a pattern from the database (replace 'pattern_id' with the actual ID of the pattern you want)
